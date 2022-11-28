@@ -12,7 +12,8 @@ WWW=		https://metacpan.org/release/Tee
 
 BUILD_DEPENDS=	p5-IO-CaptureOutput>0:devel/p5-IO-CaptureOutput \
 		p5-Probe-Perl>=0:sysutils/p5-Probe-Perl
-RUN_DEPENDS=	p5-IO-CaptureOutput>0:devel/p5-IO-CaptureOutput
+RUN_DEPENDS=	p5-IO-CaptureOutput>0:devel/p5-IO-CaptureOutput \
+		p5-Probe-Perl>=0:sysutils/p5-Probe-Perl
 
 USES=		perl5
 USE_PERL5=	configure
